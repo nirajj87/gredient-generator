@@ -1,142 +1,146 @@
-🎨 Gradient Studio Pro
-A powerful, feature-rich gradient generator built with React that helps designers and developers create, analyze, and export beautiful CSS gradients.
+# 🎨 Gradient Studio Pro
 
-https://img.shields.io/badge/Gradient-Studio%2520Pro-purple https://img.shields.io/badge/React-18-blue https://img.shields.io/badge/License-MIT-green
+> A powerful, feature-rich **React Gradient Generator** for designers & developers to create, analyze, and export stunning CSS gradients effortlessly.
 
-✨ Live Demo
-🔗 Try it here (Coming Soon)
+![Gradient Studio Pro](https://github.com/nirajj87/gredient-generator/blob/main/public/gredient.png)
+![Gradient Studio Pro Preview](https://github.com/nirajj87/gredient-generator/blob/main/public/gredient2.png)
 
-📸 Screenshots
-Dashboard	Preview Mode	Gradient Cards
-https://via.placeholder.com/400x250/667eea/ffffff?text=Dashboard	https://via.placeholder.com/400x250/764ba2/ffffff?text=Preview+Mode	https://via.placeholder.com/400x250/4A569D/ffffff?text=Gradient+Cards
-🚀 Features
-🎨 Core Features
-Smart Gradient Generation - AI-powered gradient creation
+---
 
-Multiple Gradient Types - Linear & Radial gradients
+## ✨ Live Demo
 
-Mood-based Presets - Generate gradients based on emotions (Calm, Energetic, Professional, etc.)
+🚀 **Try it here:**  
+👉 https://devsupport.co.in/gredient-generatore
 
-Real-time Preview - Instant visualization of gradients
+---
 
-Copy CSS - One-click copy of gradient CSS code
+## 📸 Screenshots
 
-Color Palette Extraction - Generate 5-color palettes from each gradient
+| Dashboard | Preview Mode | Gradient Cards |
+|---------|--------------|----------------|
+| ![](https://via.placeholder.com/400x250/667eea/ffffff?text=Dashboard) | ![](https://via.placeholder.com/400x250/764ba2/ffffff?text=Preview+Mode) | ![](https://via.placeholder.com/400x250/4A569D/ffffff?text=Gradient+Cards) |
 
-🔧 Advanced Features
-Color Locking - Lock specific colors while regenerating others
+---
 
-Auto-Animation - Automatically cycle through gradients
+## 🚀 Features
 
-WCAG Accessibility Check - Validate contrast ratios (4.5:1+)
+### 🎨 Core Features
+- 🤖 **Smart Gradient Generation** (AI-powered)
+- 🌈 **Linear & Radial Gradients**
+- 😊 **Mood-based Presets** (Calm, Energetic, Professional, etc.)
+- ⚡ **Real-time Preview**
+- 📋 **One-click Copy CSS**
+- 🎯 **5-Color Palette Extraction**
 
-Fullscreen Preview - Immersive gradient viewing experience
+---
 
-Gradient Direction Control - Adjust gradient angles (0-360°)
+### 🔧 Advanced Features
+- 🔒 **Color Locking**
+- 🔄 **Auto Animation Mode**
+- ♿ **WCAG Accessibility Check (4.5:1+)**
+- 🖥️ **Fullscreen Preview**
+- 🧭 **Gradient Angle Control (0–360°)**
+- 🎛️ **Export in HEX, RGB, HSL & CSS**
 
-Multiple Export Formats - HEX, RGB, HSL, and full CSS
+---
 
-📤 Export & Sharing
-Download as PNG - High-quality gradient images
+### 📤 Export & Sharing
+- 🖼️ **Download Gradient as PNG**
+- 💾 **Save to Local Library**
+- 🔗 **Share Gradients**
+- 🎨 **Apply as Page Background**
+- 📊 **Detailed Color Analysis**
 
-Save to Library - Store favorite gradients locally
+---
 
-Share Gradients - Native sharing or copy to clipboard
+### 🎯 Utility Features
+- 🔍 **Search & Filter Gradients**
+- ❤️ **Favorites System**
+- 📱 **Fully Responsive Design**
+- 🌙 **Dark / Light Mode**
+- ⌨️ **Keyboard Shortcuts Support**
 
-Apply as Background - Set any gradient as page background
+---
 
-Copy Analysis - Detailed color analysis reports
+## 🛠️ Tech Stack
 
-🎯 Utility Features
-Search & Filter - Find gradients by color or properties
+| Technology | Usage |
+|----------|-------|
+| ⚛️ React 18 | UI Development |
+| ⚡ Vite | Fast Build Tool |
+| 🎨 Tailwind CSS | Styling |
+| 🧮 Chroma.js | Color Manipulation |
+| 🖼️ HTML2Canvas | Image Export |
+| 🔔 React Toastify | Notifications |
+| 📋 Copy-to-Clipboard | Clipboard Support |
 
-Favorites System - Save and manage favorite gradients
+---
 
-Responsive Design - Works on mobile, tablet, and desktop
+## 📦 Installation
 
-Dark/Light Mode - Automatic theme adaptation
+### ✅ Prerequisites
+- Node.js **v16+**
+- npm or yarn
 
-Keyboard Shortcuts - Quick actions with keyboard
+### 🔧 Setup
 
-🛠️ Tech Stack
-Frontend: React 18, Vite
-
-Styling: Tailwind CSS, CSS3 Animations
-
-Icons: React Icons
-
-Color Manipulation: Chroma.js
-
-Image Export: HTML2Canvas
-
-Notifications: React Toastify
-
-Clipboard: Copy-to-clipboard
-
-📦 Installation
-Prerequisites
-Node.js (v16 or higher)
-
-npm or yarn
-
-Setup Instructions
-Clone the repository
-
-bash
+```bash
+# Clone the repository
 git clone https://github.com/yourusername/gradient-studio-pro.git
-cd gradient-studio-pro
-Install dependencies
 
-bash
+# Navigate into project
+cd gradient-studio-pro
+
+# Install dependencies
 npm install
 # or
 yarn install
-Run development server
 
-bash
+# Run development server
 npm run dev
 # or
 yarn dev
-Open in browser
 
-text
-http://localhost:5173
+___
+
+Open in browser:
+👉 http://localhost:5173
+
 🚀 Quick Start
 Basic Usage
-Adjust the number of gradients (4-50)
 
-Select gradient type (Linear/Radial)
+Select gradient count (4–50)
 
-Choose a mood preset or go random
+Choose gradient type (Linear / Radial)
 
-Click "Generate Gradients"
+Pick a mood preset or random
 
-Hover over any gradient to see options
+Click Generate Gradients
 
-Click "Copy CSS" to use in your projects
+Copy CSS & use anywhere 🎉
 
 Advanced Usage
-Lock Colors: Click the lock icon to keep colors fixed
 
-Auto Animation: Enable and set speed for automatic updates
+🔒 Lock colors to keep them fixed
 
-Accessibility Check: Look for WCAG badges (green = accessible)
+🔄 Enable auto animation
 
-Fullscreen Mode: Click the expand icon for immersive view
+♿ Check WCAG accessibility badges
 
-Save Gradients: Use the save icon to store to local library
+🖥️ Use fullscreen preview
+
+💾 Save gradients to library
 
 🔑 Keyboard Shortcuts
 Shortcut	Action
 Space	Generate new gradients
-F	Toggle fullscreen mode
-C	Copy current gradient CSS
-L	Toggle lock on selected gradient
-ESC	Exit fullscreen mode
-1-5	Switch between mood presets
+F	Toggle fullscreen
+C	Copy gradient CSS
+L	Lock / Unlock colors
+ESC	Exit fullscreen
+1–5	Switch mood presets
 📖 API Reference
-Available Props (if using as component)
-jsx
+React Component Usage
 <GradientStudio
   initialCount={20}
   defaultType="linear"
@@ -145,8 +149,8 @@ jsx
   onGradientSelect={(gradient) => console.log(gradient)}
   theme="dark"
 />
+
 Gradient Object Structure
-javascript
 {
   id: "unique-id",
   gradient: "linear-gradient(135deg, #667eea, #764ba2)",
@@ -156,14 +160,21 @@ javascript
   palette: ["#667eea", "#7285ed", "#7e8bf0", "#8a91f3", "#9697f6"],
   contrast: "4.8",
   accessible: true,
-  luminance1: "0.42",
-  luminance2: "0.28",
   hex: ["#667eea", "#764ba2"],
-  rgb: [[102, 126, 234], [118, 75, 162]],
-  hsl: [[232, 0.79, 0.66], [272, 0.37, 0.46]],
+  rgb: [[102,126,234],[118,75,162]],
+  hsl: [[232,0.79,0.66],[272,0.37,0.46]],
   isFavorite: false,
   locked: false,
   mood: "professional",
   timestamp: 1678901234567
 }
-🎨 
+
+🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork, create issues, or submit pull requests.
+
+📄 License
+
+MIT License © 2025
+Made with ❤️ by Niraj Singh
